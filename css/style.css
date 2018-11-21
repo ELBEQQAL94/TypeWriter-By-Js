@@ -1,0 +1,40 @@
+/* Start Main Rules */
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+    color: white;
+    padding:0;
+    margin:0;
+    background-color: black
+}
+.container
+{
+    width: 1200px;
+    margin: 20% auto
+}
+/* End Main Rules */
+
+/* Start Style My Design */
+h1
+{
+    text-transform: uppercase
+}
+h2
+{
+    color: red
+}
+.text
+{
+    border-right: 1px solid red
+}
+@media(min-width : 1200px) {
+    h1{font-size : 2.3em}
+}
+/* End Style My Design */
